@@ -10,11 +10,11 @@ KW_Commitment <-kruskal.test(Commitment ~ treatmentcondition, data = data)
 KW_PE <-kruskal.test(PE ~ treatmentcondition, data = data)
 KW_Intent <-kruskal.test(Intent ~ treatmentcondition, data = data)
 
-print(KW_Trust) # H = 1.4223 (2), p = 0.491
-print(KW_Identification) # H = 3.0885 (2), p = 0.2135
-print(KW_Commitment) # H = 0.4363 (2), p = 0.804
-print(KW_PE) # H = 1.8391 (2), p = 0.3987
-print(KW_Intent) # H = 0.89673 (2), p = 0.6387
+print(KW_Trust) # H = 1.2152, df = 2, p-value = 0.5446
+print(KW_Identification) # H = 3.9376, df = 2, p-value = 0.1396
+print(KW_Commitment) # H = 0.57979, df = 2, p-value = 0.7483
+print(KW_PE) # H = 0.92369, df = 2, p-value = 0.6301
+print(KW_Intent) # H = 0.77697, df = 2, p-value = 0.6781
 
 #create boxplots for latent variables, with different treatment condition.
 par(mfrow=c(2,3))
