@@ -5,7 +5,7 @@ library(dplyr)
 library(reshape) 
 
 #load data 
-Data_PT <- read_csv("pretest status CSM-LM_April 11, 2023_02.26 2.csv")
+Data_PT <- read_csv("Data/pretest status CSM-LM_April 11, 2023_02.26 2.csv")
 
 #clean data 
 Data_PT <- select(Data_PT, -(1:8))
