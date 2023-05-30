@@ -9,14 +9,11 @@ Furthermore, as part of my commitment to data privacy and protection, the first 
 R and R studio installation guide [Installation Guide](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/r/)
 
 Clone the repository to your device
-Set working directory to the structure of your directory by using the setwd() function in R Studio
+Set working directory to the structure of your directory by using the `setwd()` function in R Studio
 Before running the full analysis first the following two source code files (located in the src folder) need to be run: 
 
-1. Clean.R 
-2. pretest.R
+- `Clean.R` 
+- `pretest.R`
 
 Following this the rest of the code in the folder can be run. 
-
-<kbd>Installation Guide</kbd>
-
 
