@@ -10,10 +10,10 @@ R and R studio installation guide [Installation Guide](https://tilburgsciencehub
 
 Clone the repository to your device\
 Set working directory to the structure of your directory by using the `setwd()` function in R Studio\
-Before running the full analysis first the following two source code files (located in the src folder) need to be run:\ 
+Before running the full analysis first the following two source code files (located in the src folder) need to be run: 
 
-- `Clean.R` 
-- `pretest.R`
+1) `Clean.R` 
+2) `pretest.R`
 
 Following this the rest of the code in the folder can be run. 
 
