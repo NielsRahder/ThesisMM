@@ -15,5 +15,6 @@ Before running the full analysis first the following two source code files (loca
 1) `Clean.R` 
 2) `pretest.R`
 
-Following this the rest of the code in the folder can be run. 
+Following this the rest of the code in the folder can be run!
+
 
